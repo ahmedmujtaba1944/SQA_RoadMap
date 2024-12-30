@@ -138,3 +138,38 @@ An **SQA Engineer** ensures software quality by designing, executing, and analyz
 - **Full Join**: Returns all records when there is a match in either table.
 - **Self Join**: Joins a table with itself.
 - **Union**: Combines the result sets of two or more queries, removing duplicates.
+
+
+
+## Automation Testing
+
+### Selenium Webdriver using TestNG Framework
+What is automation testing ?
+when we do automation testing ?
+Why we need automation testign ?
+What is test automation framwork ?
+- A testing framwork is a set fo guidlines or rules used for creating and designing test cases.
+- A framwork is comprised of a combination of practices and tools that are designed to help QA professiaonls test more effiently.
+Types of Framwork ?
+- Linear Automation framework.
+--- Record-and-playback, the tester records each step such as navigation, user input, or checkpoints, and then plays the script back automatically to conduct the test.  Selenium IDE is the example.
+- Module Bases Testing Framework.
+--- Based on POM, The framwework divides the entire "Application Under Test" into a number of logical and isolated modules.
+- Data Driven Testing Framework
+--- file Readers, Data-Driven is a test automation framework which stores test data in a  table or spreadsheet format.
+- Hybrid framework is the combination of two or more frameworks. 
+
+Selenium Suits
+1. Selenium IDE
+- it is record and playback tool, which only supports only firefox. it does not allow conditional statements.
+2. Selenium RC Server ( selenium remote control server)
+- Selenium RC sends test to a server through which execution is performed.it does not interact with the browser directly due to which the execution of test is very slow.
+3. Selenium WebDriver
+- it interacts directly with the browser while executing the test. Execution is faster compare to RC.
+4. Selenium Grid
+- similar architecture as the selenium RS and it used to execute parallel test on multiple environments 
+
+
+Selenium WebDriver
+-it allows you to execute cross-browser tests. 
+- it interacts with the broswer directly therefore test execution is fast. 
