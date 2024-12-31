@@ -150,7 +150,7 @@ Why we need automation testing ?
 What is test automation framwork ?
 - A testing framwork is a set fo guidlines or rules used for creating and designing test cases.
 - A framwork is comprised of a combination of practices and tools that are designed to help QA professiaonls test more effiently.
-##### Types of Framwork ?
+#### Types of Framwork ?
 1. Linear Automation framework.
    - Record-and-playback, the tester records each step such as navigation, user input, or checkpoints, and then plays the script back automatically to conduct the test.  Selenium IDE is the example.
 2. Module Bases Testing Framework.
@@ -159,7 +159,7 @@ What is test automation framwork ?
    - file Readers, Data-Driven is a test automation framework which stores test data in a  table or spreadsheet format.
 4. Hybrid framework is the combination of two or more frameworks. 
 
-##### Selenium Suits
+#### Selenium Suits
 1. Selenium IDE
 - it is record and playback tool, which only supports only firefox. it does not allow conditional statements.
 2. Selenium RC Server ( selenium remote control server)
@@ -174,21 +174,33 @@ Selenium WebDriver
 - it allows you to execute cross-browser tests. 
 - it interacts with the broswer directly therefore test execution is fast. 
 - WebDriver Interface is the core of the Selenium WebDriver as it has all the required methods and respective nested interfaces defined within it, which helps in simulating user actions inside the browser.
-##### Most Common functions:
+#### Most Common functions:
 
 
-##### Find Element : `WebElement element = driver.findElement(By.linkText("read more"));`  
-##### Click: `element.click();` (this method clicks on the selected element.)  
-##### GetText: `String txt = element.getText();` (this method retrieves the text of the selected element as a String.)  
-##### Send Keys: `element.sendKeys("text");` (this method sends a sequence of characters or a string to the selected element.)  
-##### Navigate To: `driver.navigate().to("url");` (this method loads a new web page in the existing browser window.)  
-##### Navigate Forward: `driver.navigate().forward();` (this method enables the web browser to click on the forward button in the existing browser window.)  
-##### Navigate Back: `driver.navigate().back();` (this method enables the web browser to click on the back button in the existing browser window.)  
-##### Navigate Refresh: `driver.navigate().refresh();` (this method refreshes the currently open page.)  
-##### Get: `driver.get("url");` (this method loads a new web page in the existing browser window.)  
-##### Get Title: `driver.getTitle();` (this method fetches the title of the current webpage and returns it as a String.)  
-##### Get Current URL: `driver.getCurrentUrl();` (this method fetches the current URL of the web page and returns it as a String.)  
-##### Quit: `driver.quit();` (this method terminates all windows operated by the WebDriver.)  
+##### Find Element : 
+WebElement element = driver.findElement(By.linkText("read more"));
+##### Click: 
+`element.click();` (this method clicks on the selected element.)  
+##### GetText: 
+`String txt = element.getText();` (this method retrieves the text of the selected element as a String.)  
+##### Send Keys:
+`element.sendKeys("text");` (this method sends a sequence of characters or a string to the selected element.)  
+##### Navigate To: 
+`driver.navigate().to("url");` (this method loads a new web page in the existing browser window.)  
+##### Navigate Forward: 
+`driver.navigate().forward();` (this method enables the web browser to click on the forward button in the existing browser window.)  
+##### Navigate Back: 
+`driver.navigate().back();` (this method enables the web browser to click on the back button in the existing browser window.)  
+##### Navigate Refresh:
+`driver.navigate().refresh();` (this method refreshes the currently open page.)  
+##### Get: 
+`driver.get("url");` (this method loads a new web page in the existing browser window.)  
+##### Get Title:
+`driver.getTitle();` (this method fetches the title of the current webpage and returns it as a String.)  
+##### Get Current URL:
+`driver.getCurrentUrl();` (this method fetches the current URL of the web page and returns it as a String.)  
+##### Quit: 
+`driver.quit();` (this method terminates all windows operated by the WebDriver.)  
 
 
 
