@@ -199,6 +199,53 @@ What is test automation framwork ?
 
 ##### Locators 
 
+
+#### Page Objet Model:
+- Page Object Model (POM) is a desing pattern, that creates Object Repository for Web UI element.
+- In Page Object model (POM) all Web Elements and the method that operate on these Web Elements are maintained inside a separate file and page class. A task like verification or assertion  should be separate as part of Test methods in a test class.
+- Due to this structure, we create functions bases on logical tasks that we may need to perform multiple types and use these functionals in different tests.
+- for example, we can create a function for login and use in a happy case with a login successful assertion and in  a negative case with a login failed assertion.
+- Using Page Object Model reduces redundancy in code and it also make test case maintenance very easy.
+
+
+#### Data Driven Framework
+- In data-driven, we separate test inputs in a seprate file and use a fiel reader to get
+- the data form that file into our scripts. this provide us with separate repository for data input or outputs. 
+
+#### TestNG
+- TestNG is an automation testing framework in which NG stands for "Next Generation" which uses the annotation(@)
+- Using TestNG, you can generate a proper report and you cna easily come to know how many test caes are passed, failed and skipped.
+- if Follows ATDD approach which stands for Acceptance Test Driven Development Approach.
+- it involves writing automated tests from the users perspective and is designed to assert and validate the functionality of the software being developed.
+
+#### @Test Annotation
+- @Test is used to tell that the method under it is a test case.
+- Since we use annotations in TestNG, we needed to import the packages org.testing.annotation.*
+- You may have multiple test cases( therefore, multiple @Test annotations) in a single TestNG file.
+
+#### common attributes
+- description: It is the description for the methods 
+- Eg: @Test(description = "test method")
+- Priority: This command sets the priority of the test methods.
+- Eg: @Test(priority  1)
+
+
+
+#### Assertions
+1. assertEquals
+Assert.assertEquals(actual, expected);
+Validates if the actual and expected values are the same or not.
+2. assertNotEquals
+Assert.assertNotEquals(actual,expected,Message);
+whenever the expected and actual values match, the assertion fails with an exception and marks the testcase as "failed".
+3. assertTrue
+Assert.assertTure(condion);
+This method asserts if the condition s true or not. if not, then the exception error is thrown.
+4. assertNotNull
+Assert.assertNotNull(object);
+Verifies that value returned by object is not null. it will be pass if returned.
+
+
 Why do we need RemoteWebDriver class?
 - RemoteWebDriver class because it is a fully implemented WebDriver Interface class extended by every BrowserDriver class within the Selenium framework.
 RemoteWebdriver class implements the following interfaces:
