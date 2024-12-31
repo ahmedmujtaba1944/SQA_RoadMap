@@ -146,7 +146,7 @@ An **SQA Engineer** ensures software quality by designing, executing, and analyz
 ### Selenium Webdriver using TestNG Framework
 What is automation testing ?
 when we do automation testing ?
-Why we need automation testign ?
+Why we need automation testing ?
 What is test automation framwork ?
 - A testing framwork is a set fo guidlines or rules used for creating and designing test cases.
 - A framwork is comprised of a combination of practices and tools that are designed to help QA professiaonls test more effiently.
@@ -171,5 +171,66 @@ Selenium Suits
 
 
 Selenium WebDriver
--it allows you to execute cross-browser tests. 
+- it allows you to execute cross-browser tests. 
 - it interacts with the broswer directly therefore test execution is fast. 
+- WebDriver Interface is the core of the Selenium WebDriver as it has all the required methods and respective nested interfaces defined within it, which helps in simulating user actions inside the browser.
+Why do we need RemoteWebDriver class?
+-RemoteWebDriver class because it is a fully implemented WebDriver Interface class extended by every BrowserDriver class within the Selenium framework.
+RemoteWebdriver class implements the following interfaces:
+- WebDriver
+- JavaScriptExecutor
+- TakesScreenshot
+- HasVirtualAuthenticator
+- PrintsPage
+- HasCapabilities
+- Interactive
+
+(Except WebDriver, all other interfaces will be discussed in upcoming posts)
+
+What does Browser Drivers do?
+- Selenium provides drivers specific to each browser and without revealing the internal logic of browser functionality, the browser driver interacts with the respective browser by establishing a secure connection.
+- These browser drivers are also specific to the language which is used for test case automation like C#, Python, Java, etc.
+
+When a test script is executed with the help of WebDriver, the following tasks are performed in the background:
+
+1) An HTTP request is generated and it is delivered to the browser driver for every Selenium Command
+2) The HTTP request is received by the driver through an HTTP server
+3) All the steps/instructions to be executed on the browser is decided by an HTTP server
+4) The HTTP server then receives the execution status and in turn sends it back to the automation scripts
+
+4) Why do we use Chromium Driver Class?
+
+The ChromeDriver class in Selenium extends the ChromiumDriver class to facilitate shared functionality and code reuse among browsers based on the Chromium engine, such as Google Chrome and Microsoft Edge.
+
+5) What are important methods defined in WebDriver?
+
+ //To close the current browser instance
+driver.close();
+//To close all the open browser instances
+driver.quit();
+
+driver.get("https://google.com");
+driver.navigate().to("https://google.com");
+
+Action dragAndDrop = builder.clickAndHold(fromWebElement)
+ .moveToElement(toWebElement)
+ .release(toWebElement)
+ .build().perform();
+
+Basic actions:
+
+click(): Clicks on the element.
+sendKeys(String keys): Sends keyboard keys to the element.
+clear(): Clears the text input field of the element.
+
+Frame switching:
+switchTo().frame(WebElement frameLocator): Switches the focus to a specific frame within the page.
+
+Alert handling:
+switchTo().alert(): Switches focus to an alert or confirmation dialog.
+accept(), dismiss(), sendKeys(String text): Interact with the alert.
+
+
+Maven: Maven is a build automation tool that is used to manage the project dependency and the whole projec life cycle.
+Pom.xml: pom.xml contains projct information and configuration details used by the Maven build
+dependencies: Any library on which a java project is depend on, to run or build is called a dependency. Example: Selenium Jars
