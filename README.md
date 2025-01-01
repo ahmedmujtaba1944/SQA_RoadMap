@@ -170,30 +170,18 @@ What is test automation framwork ?
 #### Most Common functions:
 
 
-##### Find Element : 
-`WebElement element = driver.findElement(By.linkText("read more"));`
-##### Click: 
-`element.click();` (this method clicks on the selected element.)  
-##### GetText: 
-`String txt = element.getText();` (this method retrieves the text of the selected element as a String.)  
-##### Send Keys:
-`element.sendKeys("text");` (this method sends a sequence of characters or a string to the selected element.)  
-##### Navigate To: 
-`driver.navigate().to("url");` (this method loads a new web page in the existing browser window.)  
-##### Navigate Forward: 
-`driver.navigate().forward();` (this method enables the web browser to click on the forward button in the existing browser window.)  
-##### Navigate Back: 
-`driver.navigate().back();` (this method enables the web browser to click on the back button in the existing browser window.)  
-##### Navigate Refresh:
-`driver.navigate().refresh();` (this method refreshes the currently open page.)  
-##### Get: 
-`driver.get("url");` (this method loads a new web page in the existing browser window.)  
-##### Get Title:
-`driver.getTitle();` (this method fetches the title of the current webpage and returns it as a String.)  
-##### Get Current URL:
-`driver.getCurrentUrl();` (this method fetches the current URL of the web page and returns it as a String.)  
-##### Quit: 
-`driver.quit();` (this method terminates all windows operated by the WebDriver.)  
+##### Find Element : `WebElement element = driver.findElement(By.linkText("read more"));`
+##### Click: `element.click();` (this method clicks on the selected element.)  
+##### GetText: `String txt = element.getText();` (this method retrieves the text of the selected element as a String.)  
+##### Send Keys:`element.sendKeys("text");` (this method sends a sequence of characters or a string to the selected element.)  
+##### Navigate To: `driver.navigate().to("url");` (this method loads a new web page in the existing browser window.)  
+##### Navigate Forward: `driver.navigate().forward();` (this method enables the web browser to click on the forward button in the existing browser window.)  
+##### Navigate Back: `driver.navigate().back();` (this method enables the web browser to click on the back button in the existing browser window.)  
+##### Navigate Refresh:`driver.navigate().refresh();` (this method refreshes the currently open page.)  
+##### Get: `driver.get("url");` (this method loads a new web page in the existing browser window.)  
+##### Get Title:`driver.getTitle();` (this method fetches the title of the current webpage and returns it as a String.)  
+##### Get Current URL:`driver.getCurrentUrl();` (this method fetches the current URL of the web page and returns it as a String.)  
+##### Quit: `driver.quit();` (this method terminates all windows operated by the WebDriver.)  
 
 
 
@@ -249,9 +237,8 @@ Verifies that value returned by object is not null. it will be pass if returned.
 - using the XML runner, the automated test cases are executed
 - the report gets generated basesd on the results of the XML runner.
 
-
-//Runner.xml
-`<?xml version="1.0" encoding="UTF-8"?>
+#### Runner.xml
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SmokeSuite">
     <test name="LoginclassTestCase">
@@ -259,7 +246,7 @@ Verifies that value returned by object is not null. it will be pass if returned.
             <class name="MyTestProject.Test.LoginTest"/>
         </classes>
     </test>
-</suite>`
+</suite>
 
 ##### Steps to run runner.xml
 1.Go to Edit Configuration
@@ -269,6 +256,7 @@ Verifies that value returned by object is not null. it will be pass if returned.
 5. select the "Suite" from the Test Kind dropdown.
 6. Select the file in the suite input field.
 7. Then click on apply and ok.
+
 
 Why do we need RemoteWebDriver class?
 - RemoteWebDriver class because it is a fully implemented WebDriver Interface class extended by every BrowserDriver class within the Selenium framework.
@@ -300,31 +288,6 @@ The ChromeDriver class in Selenium extends the ChromiumDriver class to facilitat
 
 5) What are important methods defined in WebDriver?
 
- //To close the current browser instance
-driver.close();
-//To close all the open browser instances
-driver.quit();
-
-driver.get("https://google.com");
-driver.navigate().to("https://google.com");
-
-Action dragAndDrop = builder.clickAndHold(fromWebElement)
- .moveToElement(toWebElement)
- .release(toWebElement)
- .build().perform();
-
-Basic actions:
-
-click(): Clicks on the element.
-sendKeys(String keys): Sends keyboard keys to the element.
-clear(): Clears the text input field of the element.
-
-Frame switching:
-switchTo().frame(WebElement frameLocator): Switches the focus to a specific frame within the page.
-
-Alert handling:
-switchTo().alert(): Switches focus to an alert or confirmation dialog.
-accept(), dismiss(), sendKeys(String text): Interact with the alert.
 
 
 Maven: Maven is a build automation tool that is used to manage the project dependency and the whole projec life cycle.
