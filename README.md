@@ -170,18 +170,18 @@ What is test automation framwork ?
 #### Most Common functions:
 
 
-##### Find Element : `WebElement element = driver.findElement(By.linkText("read more"));`
-##### Click: `element.click();` (this method clicks on the selected element.)  
-##### GetText: `String txt = element.getText();` (this method retrieves the text of the selected element as a String.)  
-##### Send Keys:`element.sendKeys("text");` (this method sends a sequence of characters or a string to the selected element.)  
-##### Navigate To: `driver.navigate().to("url");` (this method loads a new web page in the existing browser window.)  
-##### Navigate Forward: `driver.navigate().forward();` (this method enables the web browser to click on the forward button in the existing browser window.)  
-##### Navigate Back: `driver.navigate().back();` (this method enables the web browser to click on the back button in the existing browser window.)  
-##### Navigate Refresh:`driver.navigate().refresh();` (this method refreshes the currently open page.)  
-##### Get: `driver.get("url");` (this method loads a new web page in the existing browser window.)  
-##### Get Title:`driver.getTitle();` (this method fetches the title of the current webpage and returns it as a String.)  
-##### Get Current URL:`driver.getCurrentUrl();` (this method fetches the current URL of the web page and returns it as a String.)  
-##### Quit: `driver.quit();` (this method terminates all windows operated by the WebDriver.)  
+Find Element : `WebElement element = driver.findElement(By.linkText("read more"));`
+Click: `element.click();` (this method clicks on the selected element.)  
+GetText: `String txt = element.getText();` (this method retrieves the text of the selected element as a String.)  
+Send Keys:`element.sendKeys("text");` (this method sends a sequence of characters or a string to the selected element.)  
+Navigate To: `driver.navigate().to("url");` (this method loads a new web page in the existing browser window.)  
+Navigate Forward: `driver.navigate().forward();` (this method enables the web browser to click on the forward button in the existing browser window.)  
+Navigate Back: `driver.navigate().back();` (this method enables the web browser to click on the back button in the existing browser window.)  
+Navigate Refresh:`driver.navigate().refresh();` (this method refreshes the currently open page.)  
+Get: `driver.get("url");` (this method loads a new web page in the existing browser window.)  
+Get Title:`driver.getTitle();` (this method fetches the title of the current webpage and returns it as a String.)  
+Get Current URL:`driver.getCurrentUrl();` (this method fetches the current URL of the web page and returns it as a String.)  
+Quit: `driver.quit();` (this method terminates all windows operated by the WebDriver.)  
 
 
 
@@ -236,18 +236,16 @@ Verifies that value returned by object is not null. it will be pass if returned.
 - XML runner allows user s to call  locators and different test class
 - using the XML runner, the automated test cases are executed
 - the report gets generated basesd on the results of the XML runner.
-
 #### Runner.xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SmokeSuite">
-    <test name="LoginclassTestCase">
-        <classes>
-            <class name="MyTestProject.Test.LoginTest"/>
-        </classes>
-    </test>
-</suite>
-
+`<?xml version="1.0" encoding="UTF-8"?>`
+`<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">`
+`<suite name="SmokeSuite">`
+    `<test name="LoginclassTestCase">`
+        `<classes>`
+            `<class name="MyTestProject.Test.LoginTest"/>`
+         `</classes>`
+    `</test>`
+`</suite>`
 ##### Steps to run runner.xml
 1.Go to Edit Configuration
 2. Click on the add (+) to add new configuration
