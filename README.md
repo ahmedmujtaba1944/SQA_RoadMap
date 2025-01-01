@@ -244,7 +244,31 @@ This method asserts if the condition s true or not. if not, then the exception e
 4. assertNotNull
 Assert.assertNotNull(object);
 Verifies that value returned by object is not null. it will be pass if returned.
+#### XML runner
+- XML runner allows user s to call  locators and different test class
+- using the XML runner, the automated test cases are executed
+- the report gets generated basesd on the results of the XML runner.
 
+
+//Runner.xml
+`<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+    <test name="LoginclassTestCase">
+        <classes>
+            <class name="MyTestProject.Test.LoginTest"/>
+        </classes>
+    </test>
+</suite>`
+
+##### Steps to run runner.xml
+1.Go to Edit Configuration
+2. Click on the add (+) to add new configuration
+3. Click on testNG
+4. Give name "Runner"
+5. select the "Suite" from the Test Kind dropdown.
+6. Select the file in the suite input field.
+7. Then click on apply and ok.
 
 Why do we need RemoteWebDriver class?
 - RemoteWebDriver class because it is a fully implemented WebDriver Interface class extended by every BrowserDriver class within the Selenium framework.
