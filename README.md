@@ -513,8 +513,10 @@ public class OOPs {
 
 2. Parameterized Constructor.
 
-package OOPs;
+package OOPs; 
+
 import java.util.Scanner;
+
 class Student {
     String name;
     int marks;
@@ -522,6 +524,7 @@ class Student {
        this.name = name;
         this.marks = mar
     }
+    
     public void showInfo(){
         System.out.println(this.name);
         System.out.println(this.marks);
@@ -533,6 +536,7 @@ public class OOPs {
          Scanner scanner = new Scanner(System.in);
          String name = scanner.nextLine();
          int marks = scanner.nextInt();
+         
           Student s1 = new Student(name,marks);
           s1.showInfor();
     }
@@ -541,7 +545,9 @@ public class OOPs {
 
 3. copy constructor:  copy and object and put into and other object
 package OOPs;
+
 import java.util.Scanner;
+
 class Student {
     String name;
     int marks;
@@ -549,20 +555,25 @@ class Student {
         this.name = s2.name;
         this.marks = s2.marks;
     }
+    
     Student(){
 
     }
+    
     public void showInfo(){
         System.out.println(this.name);
         System.out.println(this.marks);
     }
 }
+
 public class OOPs {
+
     public static void main(String args[]){
           Scanner scanner = new Scanner(System.in);
           Student s1 = new Student();
           s1.name = scanner.nextLine();
           s1.marks = scanner.nextInt();
+          
         Student s2 = new Student(s1);
         s2.showInfo();
     }
@@ -587,15 +598,19 @@ package OOPs;
 class Student {
     String name;
     int marks;
+    
     public void showInfo(String name, int marks){
         System.out.println(name);
         System.out.println(marks);
     }
+    
     public void showInfo(String name){
         System.out.println(name);
     }
 }
+
 public class OOPs {
+
     public static void main(String args[]){
          Student s1 = new Student();
          s1.name = "test";
@@ -604,6 +619,7 @@ public class OOPs {
          s1.showInfo(s1.name, s1.marks);
     }
 }
+
 Runtime Polymorphism : Runtime polymorphism is also known as dynamic
 polymorphism. Function overriding is an example of runtime
 polymorphism. Function overriding means when the child class contains
@@ -653,12 +669,16 @@ public class OOPs {
 1. Single Level inheritance (we have one base class and one drive class)
 
 i.e.,
+
 class Shap{
     public void printArea(){
+    
         System.out.println("Display Area");
     }
 }
+
 class Triangle extends Shap{
+
     public void printArea(int l, int h){
         System.out.println(1/2*l*h);
     }
@@ -669,16 +689,21 @@ class Triangle extends Shap{
 
 i.e.,
 class Shap{
+
     public void printArea(){
+    
         System.out.println("Display Area");
     }
 }
+
 class Triangle extends Shap{
+
     public void printArea(int l, int h){
         System.out.println(1/2*l*h);
     }
 }
 class EquilateralTriangle extends Triangle{
+
     public void printArea(int l, int h){
         System.out.println(1/2*l*h);
     }
@@ -686,16 +711,20 @@ class EquilateralTriangle extends Triangle{
 
 3. Hierarchial Inheritance ( one base class and multiple child class inherit that base class )
 class Person{
+
     String name;
     int age;
     int phone;
 }
+
 class Student extends Person{
     int marks;
+   
     public void showDetails(){
         System.out.println(this.name+" "+ this.age+ " "+ this.marks);
     }
 }
+
 class Teacher extends  Person{
     int salary;
     public void showDetails(){
@@ -703,7 +732,7 @@ class Teacher extends  Person{
     }
 }
 
-4. Hybrid Inheritance ( combination  of one or more type) hierarchial plus multi-level.
+5. Hybrid Inheritance ( combination  of one or more type) hierarchial plus multi-level.
 
 
 ### Access Modifiers 
@@ -729,16 +758,21 @@ set the value to private variable
 #### Example of Setter and Getter.
 package OOPs;
 class Account{
+
     private int balance;
+    
     public int getBalance(){
         return this.balance;
     }
+    
     public void setBalance(int balance){
         this.balance = balance;
     }
 }
+
 public class OOPs {
     public static void main(String args[]){
+    
         Account obj = new Account();
         obj.setBalance(100);
         System.out.println(obj.getBalance());
@@ -746,18 +780,24 @@ public class OOPs {
 }
 
 package OOPs;
+
 class Account{
     private int balance;
+    
     public int getBalance(){
         setBalance(rand());
         return this.balance;
     }
+    
     private void setBalance(int balance){
         this.balance = balance;
     }
 }
+
 public class OOPs {
+
     public static void main(String args[]){
+    
         Account obj = new Account();
         obj.setBalance(100);
         System.out.println(obj.getBalance());
@@ -785,15 +825,19 @@ Constructor chaining, when we create the object of child class, first of all it 
 
 ##### Example of Abstract class
 package OOPs;
+
 abstract class  Animal{
     abstract public void walks();
 }
+
 class Hours extends Animal {
     public void walks() {
         System.out.println("Walks on 4 legs");
     }
 }
+
 public class OOPs {
+
     public static void main(String args[]){
       Hours hours = new Hours();
       hours.walks();
@@ -809,18 +853,24 @@ public class OOPs {
 
 #### Example of Interfaces
 package OOPs;
+
 interface Animal{
+
    String color = "Black";
     void walks();
 }
+
 interface Red { 
 }
+
 class Hours implements  Animal , Red{
     public void walks() {
         System.out.println("Walks on 4 legs");
     }
 }
+
 public class OOPs {
+
     public static void main(String args[]){
       Hours hours = new Hours();
       hours.walks();
