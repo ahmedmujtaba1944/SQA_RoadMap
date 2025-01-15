@@ -281,32 +281,31 @@ What are important methods defined in WebDriver?
 ## OOP Concepts
 
 Basic concepts
-oop ?
-class
-object
-encapsulation
-inheritance and its types
-polymorphism
-overloading
-overriding
-abstrction
-class or interface
-constuctors and its types
-access modifier, setter and getter
-final,finally, static, this keyword
+- oop ?
+- class
+- object
+- encapsulation
+- inheritance and its types
+- polymorphism
+- overloading
+- overriding
+- abstrction
+- class or interface
+- constuctors and its types
+- access modifier, setter and getter
+- final,finally, static, this keyword
 
 
-### Object-Oriented Programming (OOP) is a programming paradigm that structures code around the concept of "objects," which can encapsulate(contian) 
-data and behavior. In OOP, programs are designed by modeling real-world entities as objects and defining their interactions.this paradigm is 
+### Object-Oriented Programming (OOP)
+- OOP is a programming paradigm that structures code around the concept of "objects," which can encapsulate(contian) data and behavior. In OOP, programs are designed by modeling real-world entities as objects and defining their interactions.this paradigm is 
 based on four key principles:
 1. Encapsulation
 2. Inheritance
 3. Polymorphism
 4. Abstraction
 
-### Encapsulation: Bundling of data (attributes) and the methods (functions) that operate on the 
-data into a single unit, called a class. This restricts access to some of the object's components 
-and prevents the accidental modification of data.
+### Encapsulation:
+-  Bundling of data (attributes) and the methods (functions) that operate on the  data into a single unit, called a class. This restricts access to some of the object's components  and prevents the accidental modification of data.
 
 i.e.,
 • Class: BankAccount 
