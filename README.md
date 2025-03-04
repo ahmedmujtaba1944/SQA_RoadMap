@@ -278,7 +278,8 @@ What are important methods defined in WebDriver?
 
 --- 
 
-## OOP Concepts
+
+# OOP Concepts
 
 Basic concepts
 - oop ?
@@ -297,44 +298,43 @@ Basic concepts
 
 
 ### Object-Oriented Programming (OOP)
-- OOP is a programming paradigm that structures code around the concept of "objects," which can encapsulate(contian) data and behavior. In OOP, programs are designed by modeling real-world entities as object and defining their interactions.this paradigm is 
-- Based on four key principles:
-1. Encapsulation
-2. Inheritance
-3. Polymorphism
-4. Abstraction
+- OOP is a programming paradigm that structures code around the concept of "objects," which can encapsulate(contian) data ( variable) and behavior ( methods). In OOP, programs are designed by modeling real-world entities as object and defining their interactions.
+- This paradigm is based on four key principles:
+    1. Encapsulation
+    2. Inheritance
+    3. Polymorphism
+    4. Abstraction
 
 ### Encapsulation:
 -  Bundling of data (attributes) and the methods (functions) that operate on the  data into a single unit, called a class. This restricts access to some of the object's components  and prevents the accidental modification of data.
-
-i.e.,
-• Class: BankAccount 
-o Data (Encapsulated): Account balance, account holder name
-o Methods: Deposit, withdraw
-• Encapsulation ensures that the account balance can only be modified through defined methods, 
-preventing unauthorized access
+ example 
+- Class: BankAccount. 
+- Data (Encapsulated): Account balance, account holder name
+- Methods: Deposit, withdraw.
+- Encapsulation ensures that the account balance can only be modified through defined methods, preventing unauthorized access
 
 
-### Inheritance: A mechanism that allows a class to inherit properties and behaviors from another 
-class. It promotes code reuse and establishes a hierarchy of classes.
+### Inheritance: 
+- A mechanism that allows a class to inherit properties and behaviors from another  class. It promotes code reuse and establishes a hierarchy of classes.
 
-i.e.,
-Base Class: Person
-o Properties: Name, Age, Address, Phone 
-o Behaviors: UpdateAddress(new_address), Contact()
-• Derived Class: Student 
-o Inherits from Person and adds properties like marks, subject, GetGrade(), Enrol(subjects), Study() production. 
-• Inheritance models the relationship between general entities (Person) and more specific entities  
-(Student).
+example
+- Base Class: Person
+-  Properties: Name, Age, Address, Phone 
+- Behaviors: UpdateAddress(new_address), Contact()
+- Derived Class: Student 
+- Inherits from Person and adds properties like marks, subject, GetGrade(), Enrol(subjects), Study() production. 
+- Inheritance models the relationship between general entities (Person) and more specific entities (Student).
 
-### Polymorphism: means Many form. a property having many form. in simple words we can define polymorphism as the ability
-of a same message to be displayed in more than one form. when the same entity(functionl or object) behave differently in
-diffently scenarios it is knwo as polymorphism.
+### Polymorphism:
+- It means Many form. a property having many form. in simple words we can define polymorphism as the ability of a same message to be displayed in more than one form. 
+- when the same entity(functionl or object) behave differently in diffently scenarios it is knwo as polymorphism.
+--- Two types of polymorphism ---
 
-1. compile time (function overloading, operator overloading) 
-2. run time (function overriding  )
-Function Overloading occurs when a two or more functions can have same name but different parameters.
-Function Overriding occurs when a drive class has a definition of one or more member of a base class.
+*compile time* (function overloading, operator overloading).
+- Function Overloading occurs when a two or more functions can have same name but different parameters.
+*run time* (function overriding  )
+
+- Function Overriding occurs when a drive class has a definition of one or more member of a base class.
 
 ### Abstraction 
 - Data hiding is the process of protection members of a class from uninteded changes whereas, abstraction is hiding the implementation details and showing only important/ useful parts to the user.
@@ -347,57 +347,40 @@ Abstraction is achieved in 2 ways :
 - Interfaces (Pure Abstraction)
 
 1. Abstract Class
-● An abstract class must be declared with an abstract keyword.
-● It can have abstract and non-abstract methods.
-● It cannot be instantiated.
-● It can have constructors and static methods also.
-● It can have final methods which will force the subclass not to change the body the method.
+- An abstract class must be declared with an abstract keyword.
+- It can have abstract and non-abstract methods.
+- It cannot be instantiated.
+- It can have constructors and static methods also.
+- It can have final methods which will force the subclass not to change the body the method.
 
 Constructor chaining, when we create the object of child class, first of all it call the constuctor of parent class then call the constructor of child class.
 
 2. Interfaces ( pure abstraction)
-● All the fields in interfaces are public, static and final by defa
-● All methods are public & abstract by default.
-● A class that implements an interface must implement all the methods declared in the interface.
-● Interfaces support the functionality of multiple inheritance.
+- All the fields in interfaces are public, static and final by default
+- All methods are public & abstract by default.
+- A class that implements an interface must implement all the methods declared in the interface.
+- Interfaces support the functionality of multiple inheritance.
 
-i.e., 
-Abstraction in a Remote Control
-• Abstraction: RemoteControl 
-o Methods: PowerOn, PowerOff, ChangeChannel
-• Abstraction simplifies the interaction with a complex TV system, allowing users to control it without understanding its internal workings.
+example (Abstraction in a Remote Control) 
+- Abstraction: RemoteControl 
+- Methods: PowerOn, PowerOff, ChangeChannel
+- Abstraction simplifies the interaction with a complex TV system, allowing users to control it without understanding its internal workings.
 
 
-#### class blue print,Class is a user-defined data type which defines its properties and
-functions. Class is the only logical representation of the data. For
-example, Human being is a class. The body parts of a human being are its
-properties, and the actions performed by the body parts are known as
-functions. The class does not occupy any memory space till the time an
-object is instantiated.
-#### object: entity of a class, property ( member variables), actions ( member functions). when a class is defined no memory is allocated 
-but when it is instantiated ( i.e., object is created) of that class.
-Object is a run-time entity. It is an instance of the class. An object can
-represent a person, place or any other item. An object can operate on
-both data members and member functions.
+### class
+- blue print, Class is a user-defined data type which defines its properties and functions. Class is the only logical representation of the data. For example, Human being is a class. The body parts of a human being are its properties, and the actions performed by the body parts are known as functions. The class does not occupy any memory space till the time an object is instantiated.
 
-ie. human is a class. body parts is a member variables, action we performed is called the member functions.
-
-Note : When an object is created using a new keyword, then space is
-allocated for the variable in a heap, and the starting address is stored in
-the stack memory.
-‘this’ keyword : ‘this’ keyword in Java that refers to the current
-instance of the class. In OOPS it is used to:
-1. pass the current object as a parameter to another
-method
+### object:
+- entity of a class, property ( member variables), actions ( member functions). when a class is defined no memory is allocated but when it is instantiated ( i.e., object is created) of that class.
+- Object is a run-time entity. It is an instance of the class. An object can represent a person, place or any other item. An object can operate on both data members and member functions.
+- example human is a class. body parts is a member variables, action we performed is called the member functions.
+- Note : When an object is created using a new keyword, then space is allocated for the variable in a heap, and the starting address is stored in the stack memory.
+- ‘this’ keyword : ‘this’ keyword in Java that refers to the current instance of the class. In OOPS it is used to:
+1. pass the current object as a parameter to another method
 2. refer to the current class instance variable
 
-### Constructor 
-
-- it is the special type of function that is automatically called when object is ceated. having same name as the class name.
-- constructor does not return anything. ( dont have any return type)
-- call only one time for one object. ( calls when object is created)
 i.e., pms.
- 
+ ```
 class Passowrd{
  
      //data member
@@ -426,12 +409,11 @@ public class Main(){
      //print infor
      obj1.showPassword();
 }
-
-
-
+```
+example pen or oop class
+```
 package OOPs;
 import java.util.Scanner;
-
 
 //pen clas
 class Pen{
@@ -467,7 +449,7 @@ public class OOPs {
 
     }
 }
-
+```
 
 ### Constructor 
 
@@ -475,20 +457,20 @@ public class OOPs {
 - constructor does not return anything. ( dont have any return type)
 - call only one time for one object. ( calls when object is created)
 
+
 #### Example of constructor 
 Student s1 = new Student();
 
-Student: data type of s1 object
-new: it is keyword in java that allocate a new space in memory with the name of Student
-Student(): non parameterized constructor. 
+- Student: data type of s1 object
+- new: it is keyword in java that allocate a new space in memory with the name of Student. 
+- Student(): non parameterized constructor. 
 
 there are 3 types of constructor in java
 1. non parameterized constructor
-A constructor which has no
-argument is known as non-parameterized constructor(or no-argument
-constructor). It is invoked at the time of creating an object. If we don’t
-create one then it is created by default by Java.
+- A constructor which has no argument is known as non-parameterized constructor(or no-argumentconstructor). It is invoked at the time of creating an object. If we don’t create one then it is created by default by Java.
 
+example
+```
 package OOPs;
 import java.util.Scanner;
 class Student {
@@ -509,9 +491,11 @@ public class OOPs {
           Student s1 = new Student();
     }
 }
-
+```
 2. Parameterized Constructor.
-
+- A parameterized constructor is a type of constructor that accepts parameters when an object is created
+example
+```
 package OOPs; 
 
 import java.util.Scanner;
@@ -540,9 +524,12 @@ public class OOPs {
           s1.showInfor();
     }
 }
+```
 
-
-3. copy constructor:  copy and object and put into and other object
+3. copy constructor:  
+- copy and object and put into and other object
+example
+```
 package OOPs;
 
 import java.util.Scanner;
@@ -550,6 +537,7 @@ import java.util.Scanner;
 class Student {
     String name;
     int marks;
+
     Student(Student s2){
         this.name = s2.name;
         this.marks = s2.marks;
@@ -577,22 +565,24 @@ public class OOPs {
         s2.showInfo();
     }
 }
-
-Because Java is a garbage collected language you cannot predict when (or even if) an object will be destroyed. Hence there is no direct equivalent of a destructor.
+```
+4. destructor
+- Because Java is a garbage collected language you cannot predict when (or even if) an object will be destroyed. Hence there is no direct equivalent of a destructor.
   
-#### Polymorphism ( many forms)
+### Polymorphism ( many forms)
 
-1. function overloading compile time
-2. function overriding  runtime
+1. function overloading - compile time
+2. function overriding  - runtime
 
 
-Function overLoading  ( same name but different parameters)
+***Function overLoading  ( same name but different parameters)***
 
 - make diff return type of paramerter if parameter are same in quantity
 - make diff number of parameter in quantity if return type are same
 example with code. 
 
-#### Example of polymorphism
+Example of polymorphism
+```
 package OOPs;
 class Student {
     String name;
@@ -618,19 +608,16 @@ public class OOPs {
          s1.showInfo(s1.name, s1.marks);
     }
 }
+```
+***Runtime Polymorphism : Runtime polymorphism is also known as dynamic polymorphism.***
+- Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class. 
+- In case of functionoverriding, parent and child classes both contain the same function with a different defination. the call to the function is determined at runtime is  known as run time polymorphism.
 
-Runtime Polymorphism : Runtime polymorphism is also known as dynamic
-polymorphism. Function overriding is an example of runtime
-polymorphism. Function overriding means when the child class contains
-the method which is already present in the parent class. Hence, the child
-class overrides the method of the parent class. In case of function
-overriding, parent and child classes both contain the same function with a
-different defination. the call to the function is determined at runtime is 
-known as run time polymorphism.
-
-#### Inheritance
+### Inheritance
 - one class wants to use the property of other class
 
+example
+```
 package OOPs;
 class Person{
     String name;
@@ -664,11 +651,11 @@ public class OOPs {
          t1.showDetails();
     }
 }
-
+```
 1. Single Level inheritance (we have one base class and one drive class)
 
-i.e.,
-
+example
+```
 class Shap{
     public void printArea(){
     
@@ -682,11 +669,12 @@ class Triangle extends Shap{
         System.out.println(1/2*l*h);
     }
 }
-
+```
 
 2. Multi Level inheritance ( chaining of classes )
 
-i.e.,
+example
+```
 class Shap{
 
     public void printArea(){
@@ -707,8 +695,10 @@ class EquilateralTriangle extends Triangle{
         System.out.println(1/2*l*h);
     }
 }
-
+```
 3. Hierarchial Inheritance ( one base class and multiple child class inherit that base class )
+example
+```
 class Person{
 
     String name;
@@ -731,30 +721,29 @@ class Teacher extends  Person{
     }
 }
 
+```
+
 5. Hybrid Inheritance ( combination  of one or more type) hierarchial plus multi-level.
 
 
 ### Access Modifiers 
 
-1. Private: The access level of a private modifier is only within the class. It cann
-be accessed from outside the class.
-2. Default: The access level of a default modifier is only within the package. 
-cannot be accessed from outside the package. If you do not specify any access
-level, it will be the default.
-3. Protected: The access level of a protected modifier is within the package a
-outside the package through child class. If you do not make the child class, it
-cannot be accessed from outside the package.
-4. Public: The access level of a public modifier is everywhere. It can be access
-from within the class, outside the class, within the package and outside the
-package.
+1. Private: The access level of a private modifier is only within the class. It can not be accessed from outside the class.
+
+2. Default: The access level of a default modifier is only within the package.  cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+
+3. Protected: The access level of a protected modifier is within the package a outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+
+4. Public: The access level of a public modifier is everywhere. It can be access from within the class, outside the class, within the package and outside the package.
 
 
 
-### getters & setter
-get the value from the private variable
-set the value to private variable
+### Getters & Setter
+- get the value from the private variable
+- set the value to private variable
 
-#### Example of Setter and Getter.
+Example of Setter and Getter.
+```
 package OOPs;
 class Account{
 
@@ -777,31 +766,7 @@ public class OOPs {
         System.out.println(obj.getBalance());
     }
 }
-
-package OOPs;
-
-class Account{
-    private int balance;
-    
-    public int getBalance(){
-        setBalance(rand());
-        return this.balance;
-    }
-    
-    private void setBalance(int balance){
-        this.balance = balance;
-    }
-}
-
-public class OOPs {
-
-    public static void main(String args[]){
-    
-        Account obj = new Account();
-        obj.setBalance(100);
-        System.out.println(obj.getBalance());
-    }
-}
+```
 
 ### Abstraction 
 - Data hiding is the process of protection members of a class from uninteded changes whereas, abstraction is hiding the implementation details and showing only important/ useful parts to the user.
@@ -814,15 +779,27 @@ Abstraction is achieved in 2 ways :
 - Interfaces (Pure Abstraction)
 
 1. Abstract Class
-● An abstract class must be declared with an abstract keyword.
-● It can have abstract and non-abstract methods.
-● It cannot be instantiated.
-● It can have constructors and static methods also.
-● It can have final methods which will force the subclass not to change the body the method.
+- An abstract class must be declared with an abstract keyword.
+- It can have abstract and non-abstract methods.
+- It cannot be instantiated.
+- It can have constructors and static methods also.
+- It can have final methods which will force the subclass not to change the body the method.
 
 Constructor chaining, when we create the object of child class, first of all it call the constuctor of parent class then call the constructor of child class.
 
-##### Example of Abstract class
+2. Interfaces ( pure abstraction)
+- All the fields in interfaces are public, static and final by default
+- All methods are public & abstract by default.
+- A class that implements an interface must implement all the methods declared in the interface.
+- Interfaces support the functionality of multiple inheritance.
+
+example (Abstraction in a Remote Control) 
+- Abstraction: RemoteControl 
+- Methods: PowerOn, PowerOff, ChangeChannel
+- Abstraction simplifies the interaction with a complex TV system, allowing users to control it without understanding its internal workings.
+
+ Example of Abstract class
+ ```
 package OOPs;
 
 abstract class  Animal{
@@ -842,15 +819,16 @@ public class OOPs {
       hours.walks();
     }
 }
-
+```
 
 2. Interfaces ( pure abstraction)
-● All the fields in interfaces are public, static and final by defa
-● All methods are public & abstract by default.
-● A class that implements an interface must implement all the methods declared in the interface.
-● Interfaces support the functionality of multiple inheritance.
+- All the fields in interfaces are public, static and final by default
+- All methods are public & abstract by default.
+- A class that implements an interface must implement all the methods declared in the interface.
+- Interfaces support the functionality of multiple inheritance.
 
-#### Example of Interfaces
+ Example of Interfaces
+ ```
 package OOPs;
 
 interface Animal{
@@ -875,6 +853,7 @@ public class OOPs {
       hours.walks();
     }
 }
+```
 
 
 
