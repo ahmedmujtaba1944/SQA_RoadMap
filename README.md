@@ -1,21 +1,97 @@
 
 # SQA Engineer RoadMap
+Technical skills
+Business acumen 
+Soft skills
 
-An **SQA Engineer** ensures software quality by designing, executing, and analyzing tests to identify defects and verify that the product meets requirements. They work closely with development teams to resolve issues, improve processes, and ensure that the final product is reliable, efficient, and user-friendly. Their role is crucial in delivering high-quality software within deadlines.
+
+Technical skills 
+1. Basics of programming language ( pick one language do it's basic, oop, problems)
+2. Knowledge of source control git, GitHub 
+3. Knowledge of database SQL 
+4. Technology stack is used in application, able to read log files( able to read exception or errors ), understand stack trace or test api 
+5. Knowledge of cloud ( azure, , google cloud) and CI/CD tools ( Jenkins, azure DevOps)
+6. Knowledge of testing tools bug management , test case management ( testrail, Jira)
+7. Good command over automation practice 
+8. Knowledge of Linux commands ( docs, Linux, bash)
+9. Understand of mobile, web and api ( do self learning on all stacks)
+10. Knowledge of NFRs ( Performance( tools, types), security ( top ten attacks, solution, report), usability, accessibility( special people))
+11. Knowledge of software development process ( TDD,BDD).
+
+Automation ( Arrangements (finding the locators and writing in POM/BDD )and , Action, Assertion ( verify the action))
+1.Learn basics of programming language ( pick one language do it's basic, oop, problems hacker rank) string reverse, integer reverse, prime number, string palindrome, Hacker rank basic, intermediate problem solving certification ( daily one program)
+2. Learn DB queries on hacker rank 
+3. Focus on the following tools
+ Selenium WebDriver with java for web automation 
+ Appium with java for mobile automation 
+ Rest assured for API automation 
+
+
+Tools 
+Google page speed insight/ gtmatrix for performance 
+BURP/ Acunetix / ZAP for security testing 
+Selenium/ cypress/ playwright for web ui automation 
+Postman/ rest assured for API automation 
+Appium/ espresso for mobile automation 
+JMeeter/ load runner for load and stress testing 
+Applitools eyes / sikuli for automated visual testing 
+Cucumber/ specFlow  for knowledge of BDD 
+Test comple/ ranorex /QTP QFT
+TestRail / Zephyr for test case management 
+Jira/ azure/ Bugzilla for bug management 
+Jenkins/ bamboo/ aws/ azure DevOps for CI/CD 
+
+Business acumen ( Domain knowledge)
+1. Have customer prospective 
+2. Asking and understanding what problem of the customer does the feature solve. 
+3. Asking what and why?
+4. Understanding risks and opportunities 
+5. Can become expert in a domain in less time (flexible)
+6. Only then you can uncover the scenarios
+Also check the compatible apps for getting more projects knowledge 
+Example 
+Doctor or patient app 
+POS keyboard friendly ( super market )
+POS touch screen in restaurants 
+
+Soft skills 
+1. Communication ( written, verbal, listening) more listen speak less. 
+2. Empathy or positive attitude 
+3. Emotional Intelligence ( how to get along and how to handle bullies) 
+4. Eager to learn and Share 
+5. Time management 
+6. Leadership 
+7. Being coachable
+
+How to develop those skills 
+1. Learn everyday 
+2. Read everyday ( ministry of testing, software testinghelp.com, Guru99.com, toolSQA.com)
+3. Do online courses ( TAU, Udemy, Lambda test ) 
+4. YouTube ( automation step by step, Naveen automation labs, Rahul Shetty, execute automation, SDET) 
+5. Internship in good project based companies 
+6. Attend meetups and sessions 
+7. Follow experts on LinkedIn or Twitter 
+8. Participate in open source project 
+9. Freelancing 
+
+Careers 
+1. Management Track ( associate SQA, SQA, Senior SQA, Lead SQA, Manager SQA Senior Manager SQA, Associate Director, Director, VP) 
+2. Individual Contributor Tract 
+Automation 
+Performance 
+Security
+
+Rotation in the Field 
+Project management, business analyst, scrum master, consultant, developer, DevOps, designer.
+
 
 ---
 
 
-## Index
-- Manual Testing
-- API Testing
-- Perfomance Testing
-- Database Testing
-- Automation Testing
-- Security Testing
 
 
---- 
+# Notes 
+---
 ## Manual Testing
 - Definition of Software Quality Asuurance (SQA)
 - Manual Testing and Automation testing
