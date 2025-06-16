@@ -1,11 +1,19 @@
 
+---
+
+**💡 Tip:** SQA is not just about finding bugs — it’s about understanding the product, improving quality, and delivering value to users.
+
+---
+
+
+
 # SQA Engineer RoadMap
-Technical skills
-Business acumen 
-Soft skills
+* Technical skills
+* Business acumen 
+* Soft skills
 
 
-Technical skills 
+### Technical skills 
 1. Basics of programming language ( pick one language do it's basic, oop, problems)
 2. Knowledge of source control git, GitHub 
 3. Knowledge of database SQL 
@@ -18,7 +26,7 @@ Technical skills
 10. Knowledge of NFRs ( Performance( tools, types), security ( top ten attacks, solution, report), usability, accessibility( special people))
 11. Knowledge of software development process ( TDD,BDD).
 
-Automation ( Arrangements (finding the locators and writing in POM/BDD )and , Action, Assertion ( verify the action))
+#### Automation ( Arrangements (finding the locators and writing in POM/BDD )and , Action, Assertion ( verify the action))
 - Learn basics of programming language ( pick one language do it's basic, oop, problems hacker rank) string reverse, integer reverse, prime number, string palindrome, Hacker rank basic, intermediate problem solving certification ( daily one program)
 - Learn DB queries on hacker rank 
 - Focus on the following tools
@@ -27,21 +35,21 @@ Automation ( Arrangements (finding the locators and writing in POM/BDD )and , Ac
  3. Rest assured for API automation 
 
 
-Tools 
-Google page speed insight/ gtmatrix for performance 
-BURP/ Acunetix / ZAP for security testing 
-Selenium/ cypress/ playwright for web ui automation 
-Postman/ rest assured for API automation 
-Appium/ espresso for mobile automation 
-JMeeter/ load runner for load and stress testing 
-Applitools eyes / sikuli for automated visual testing 
-Cucumber/ specFlow  for knowledge of BDD 
-Test comple/ ranorex /QTP QFT
-TestRail / Zephyr for test case management 
-Jira/ azure/ Bugzilla for bug management 
-Jenkins/ bamboo/ aws/ azure DevOps for CI/CD 
+#### Tools 
+- Google page speed insight/ gtmatrix for performance 
+- BURP/ Acunetix / ZAP for security testing 
+- Selenium/ cypress/ playwright for web ui automation 
+- Postman/ rest assured for API automation 
+- Appium/ espresso for mobile automation 
+- JMeeter/ load runner for load and stress testing 
+- Applitools eyes / sikuli for automated visual testing 
+- Cucumber/ specFlow  for knowledge of BDD 
+- Test comple/ ranorex /QTP QFT
+- TestRail / Zephyr for test case management 
+- Jira/ azure/ Bugzilla for bug management 
+- Jenkins/ bamboo/ aws/ azure DevOps for CI/CD 
 
-Business acumen ( Domain knowledge)
+#### Business acumen ( Domain knowledge)
 1. Have customer prospective 
 2. Asking and understanding what problem of the customer does the feature solve. 
 3. Asking what and why?
@@ -49,12 +57,12 @@ Business acumen ( Domain knowledge)
 5. Can become expert in a domain in less time (flexible)
 6. Only then you can uncover the scenarios
 Also check the compatible apps for getting more projects knowledge 
-Example 
-Doctor or patient app 
-POS keyboard friendly ( super market )
-POS touch screen in restaurants 
+##### Example 
+* Doctor or patient app 
+* POS keyboard friendly ( super market )
+* POS touch screen in restaurants 
 
-Soft skills 
+#### Soft skills 
 1. Communication ( written, verbal, listening) more listen speak less. 
 2. Empathy or positive attitude 
 3. Emotional Intelligence ( how to get along and how to handle bullies) 
@@ -63,7 +71,7 @@ Soft skills
 6. Leadership 
 7. Being coachable
 
-How to develop those skills 
+#### How to develop those skills 
 1. Learn everyday 
 2. Read everyday ( ministry of testing, software testinghelp.com, Guru99.com, toolSQA.com)
 3. Do online courses ( TAU, Udemy, Lambda test ) 
@@ -74,22 +82,17 @@ How to develop those skills
 8. Participate in open source project 
 9. Freelancing 
 
-Careers 
+#### Careers 
 1. Management Track ( associate SQA, SQA, Senior SQA, Lead SQA, Manager SQA Senior Manager SQA, Associate Director, Director, VP) 
 2. Individual Contributor Tract 
-Automation 
-Performance 
-Security
+* Automation 
+* Performance 
+* Security
 
-Rotation in the Field 
+#### Rotation in the Field 
 Project management, business analyst, scrum master, consultant, developer, DevOps, designer.
 
-
 ---
-
-
-
-
 # Notes 
 ---
 ## Manual Testing
