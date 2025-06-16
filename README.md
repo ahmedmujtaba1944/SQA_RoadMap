@@ -19,12 +19,12 @@ Technical skills
 11. Knowledge of software development process ( TDD,BDD).
 
 Automation ( Arrangements (finding the locators and writing in POM/BDD )and , Action, Assertion ( verify the action))
-1.Learn basics of programming language ( pick one language do it's basic, oop, problems hacker rank) string reverse, integer reverse, prime number, string palindrome, Hacker rank basic, intermediate problem solving certification ( daily one program)
-2. Learn DB queries on hacker rank 
-3. Focus on the following tools
- Selenium WebDriver with java for web automation 
- Appium with java for mobile automation 
- Rest assured for API automation 
+- Learn basics of programming language ( pick one language do it's basic, oop, problems hacker rank) string reverse, integer reverse, prime number, string palindrome, Hacker rank basic, intermediate problem solving certification ( daily one program)
+- Learn DB queries on hacker rank 
+- Focus on the following tools
+ 1. Selenium WebDriver with java for web automation 
+ 2. Appium with java for mobile automation 
+ 3. Rest assured for API automation 
 
 
 Tools 
