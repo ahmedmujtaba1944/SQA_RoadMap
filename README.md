@@ -223,6 +223,7 @@ Project management, business analyst, scrum master, consultant, developer, DevOp
 
 ## Automation Testing
 
+- must be good in one programming language ( String manipulation, arrays, oop, stack, queue, hash mapping ) 
 ### Selenium Webdriver using TestNG Framework
 What is automation testing ?
 when we do automation testing ?
