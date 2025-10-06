@@ -93,6 +93,65 @@ Also check the compatible apps for getting more projects knowledge
 Project management, business analyst, scrum master, consultant, developer, DevOps, designer.
 
 ---
+## Road map for automation SDET
+
+### Goal
+ 1. ✅ 50+ coding problems solved
+ 2. ✅ 1 UI automation framework with reporting
+ 3. ✅ 1 API framework integrated with CI/CD
+ 4. ✅ 4 mock interviews completed
+ 4. ✅ A portfolio that genuinely impresses SDET interviewers
+ 
+ - Your Daily 2,3-Hour Plan
+   - Coding and logic building
+   - Framework or project work
+   - Revision or mock interviews
+
+#### Programming Foundation
+- Focus on:
+  -  Java 17 – Strings, Collections, Streams, OOPs, Interfaces
+  -  Data Structures – Arrays, Lists, Sets, Maps, Stacks, Queues
+  -  Algorithms – Sorting, Searching, Recursion, Big-O Complexity
+
+- Daily routine:
+  -  Solve 1 LeetCode/Hacker Rank problems
+  -  Revising OOPs
+  -  Practice String and Array manipulations
+- Goal by Day 30: 30 problems solved and solid Java foundations
+
+
+#### Build Your First UI Framework
+- Focus on:
+  - TestNG, Cucumber, Assertions, Annotations
+  - Selenium/ Playwright or Cypress
+  - Design Patterns – Page Object Model, Factory, Builder, Strategy
+  - Reporting – Extent Reports or Allure
+
+- Goal by Day 30: A fully functional UI framework you can confidently demo in interviews
+- Weekly check-in: Record a 60-second Loom video explaining your framework
+
+#### API Testing + CI/CD Integration
+- Focus on:
+  - REST API fundamentals, Status Codes, Headers
+  -  Tools – Rest Assured, Postman, Newman
+  - Authentication – Basic, Bearer, OAuth 2.0, JWT
+  - CI/CD – Jenkins or GitHub Actions
+
+- Goal by Day 30: A complete automation suite that includes UI + API + CI/CD
+- Weekly check-in: Schedule a GitHub Actions run and share your results
+
+#### System Design + Mock Interviews
+- Focus on:
+  - Framework architecture, design patterns, and code refactoring
+  - Explaining your project using the STAR method
+  - Dealing with flaky tests, CI failures, and production bugs
+  - Preparing for behavioral and technical interviews
+
+- Goal by Day 30: Clear project storytelling, architectural thinking, and interview confidence
+- Weekly check-in: Complete 2 technical and 2 behavioral mock interviews
+
+
+---
 # Notes 
 ---
 ## Manual Testing
