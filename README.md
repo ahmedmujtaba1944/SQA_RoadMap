@@ -152,13 +152,13 @@ Project management, business analyst, scrum master, consultant, developer, DevOp
 
 
 ## Practice Site for manual testing and automation testing
-https://demowebshop.tricentis.com/
-https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-https://www.saucedemo.com/
-https://the-internet.herokuapp.com/
-https://www.demoblaze.com/
-https://demo.opencart.com/
-https://www.nopcommerce.com/en/demo
+- https://demowebshop.tricentis.com/
+- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+- https://www.saucedemo.com/
+- https://the-internet.herokuapp.com/
+- https://www.demoblaze.com/
+- https://demo.opencart.com/
+- https://www.nopcommerce.com/en/demo
 
 ## Automation Testing
 
