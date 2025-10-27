@@ -16,15 +16,15 @@
 ### Technical skills 
 1. Basics of programming language ( pick one language do it's basic, oop, problems)
 2. Knowledge of source control git, GitHub 
-3. Knowledge of database SQL 
-4. Technology stack is used in application, able to read log files( able to read exception or errors ), understand stack trace or test api 
-5. Knowledge of cloud ( azure, , google cloud) and CI/CD tools ( Jenkins, azure DevOps)
-6. Knowledge of testing tools bug management , test case management ( testrail, Jira)
+3. Knowledge of database SQL,  (Joins, Functions)
+4. Technology stack is used in application, able to read log files( able to read exception or errors ), understand stack trace or Test APIs
+5.  Knowledge of cloud ( azure, , google cloud, AWS) and CI/CD tools ( Jenkins, azure DevOps TFS, Circle CI, GitHub action)
+6. Knowledge of testing tools bug management , test case management ( TestRail, Jira)
 7. Good command over automation practice 
 8. Knowledge of Linux commands ( docs, Linux, bash)
 9. Understand of mobile, web and api ( do self learning on all stacks)
-10. Knowledge of NFRs ( Performance( tools, types), security ( top ten attacks, solution, report), usability, accessibility( special people))
-11. Knowledge of software development process ( TDD,BDD).
+10. Knowledge of NFRs ( Performance( tools, types), security ( top ten attacks on OS, solution, report), usability, accessibility( special people))
+11. Knowledge of software development process ( TDD,BDD(Given Then, When).
 
 #### Automation ( Arrangements (finding the locators and writing in POM/BDD )and , Action, Assertion ( verify the action))
 - Learn basics of programming language ( pick one language do it's basic, oop, problems hacker rank) string reverse, integer reverse, prime number, string palindrome, Hacker rank basic, intermediate problem solving certification ( daily one program)
